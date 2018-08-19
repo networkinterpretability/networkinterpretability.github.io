@@ -1,40 +1,131 @@
-<!doctype html>
-<html class="no-js" lang="">
 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>AAAI-19 Workshop on Network Interpretability for Deep Learning</title>
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <link href="src/css/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-  <!--[if lte IE 9]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script>
-  <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js" integrity="{{JQUERY_SRI_HASH}}" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+<div class="container">
+  <table border="0" align="center">
+    <tr>
+      <td width="700" align="center" valign="middle"><h3>AAAI-19 Workshop on</h3>
+      <span class="title">Network Interpretability for Deep Learning</span></td>
+    </tr>
+    <tr>
+      <!--
+        <td colspan="3" align="center"><h3>Room 355 EF, Salt Lake City, USA<br>Monday afternoon, June 18, 2018</h3></td>
+        -->
+    </tr>
+  </table>
+  <p><img src="src/figures/main.png" width="1000" align="middle" /></p>
+</div>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</br>
+
+<div class="container">
+  <h2>Overview</h2>
+    <div class="overview">
+    <p>This workshop aims to bring together scientists, engineers, students in both
+academic and industrial communities who concern themselves about the
+interpretability of deep learning techniques and, more importantly, the safety
+of applying these techniques in real life use cases including medical diagnosis
+and autonomous driving.  Ultimately
+efforts along this direction are expected to open the black box of deep neural
+networks and lead to interpretable knowledge representations.  The main theme of the workshop discussion,
+therefore, is to build up consensus in this emerging field, and in particular,
+to clarify the motivation, typical methodologies, prospective trends, and
+potential industrial applications of boosted interpretability of neural
+networks.</p>
+<!--    <p>This tutorial is to broadly engage the computer vision community with the topic of interpretability and explainability in models used in computer vision. We will introduce the definition of interpretability and why it is important, and have a review on visualization and interpretation methodologies for analyzing both the <em>data</em> and the <em>models</em> in computer vision.
+</p>
+-->
+    </div>
+</div>
+
+</br>
+
+<div class="container">
+  <h2>Topics</h2>
+    <div class="schedule">
+        <ul>
+            <li>Theories of deep neural networks</li>
+            <li>Visualization of neural networks</li>
+            <li>Diagnosing and disentangling feature representations of neural networks</li>
+            <li>Learning representations for neural networks which are interpretable, disentangled and compact</li>
+            <li>Industrial applications of interpretable deep neural networks</li>
+            <li>Evaluation of the interpretability of neural networks</li>
+        </ul>
+    </div>
+
+<!--
+    <div class="schedule">
+        <p><span class="announce_date">14:10 - 14:50 </span>.  Talk 1 by <em>Been Kim</em>: <strong>Introduction to Interpretable Machine Learning</strong> <a href="http://deeplearning.csail.mit.edu/slide_cvpr2018/been_cvpr18tutorial.pdf">PDF</a> <a href="https://www.youtube.com/watch?v=MgawSHnYQGw">Youtube</a> <a href="http://deeplearning.csail.mit.edu/slide_cvpr2018/cvpr18_tutorial_part1.mp4">Mp4(talk1+talk2)</a></p>
+        <p><span class="announce_date">14:50 - 15:30 </span>.  Talk 2 by <em>Laurens van der Maaten</em>: <strong>Dos and Don'ts of using t-SNE to Understand Vision Models</strong> <a href="http://deeplearning.csail.mit.edu/slide_cvpr2018/laurens_cvpr18tutorial.pdf">PDF</a> <a href="https://youtu.be/MgawSHnYQGw?t=2589">Youtube</a></p>
+      <p><span class="announce_date">15:30 - 16:15 </span>.  Break. </p>
+      <p><span class="announce_date">16:15 - 16:55 </span>.  Talk 3 by <em>Bolei Zhou</em>: <strong>On the Importance of Individual Units in Deep Networks</strong> <a href="http://deeplearning.csail.mit.edu/slide_cvpr2018/bolei_cvpr18tutorial.pdf">PDF</a> <a href="https://www.youtube.com/watch?v=1aSS5GEH58U">Youtube</a> <a href="http://deeplearning.csail.mit.edu/slide_cvpr2018/cvpr18_tutorial_part2.mp4">Mp4(talk3+talk4)</a></p>
+      <p><span class="announce_date">16:55 - 17:35 </span>.  Talk 4 by <em>Andrea Vedaldi</em>: <strong>Understanding Deep Networks using Natural pre-images, Meaningful Perturbations, and Vector Embeddings</strong> <a href="http://deeplearning.csail.mit.edu/slide_cvpr2018/vedaldi_cvpr18tutorial.pdf">PDF</a> <a href="https://youtu.be/1aSS5GEH58U?t=2860">Youtube</a></p>
+    </div>
+-->
+</div>
+
+</br>
+
+<div class="container">
+  <h2>Submission</h2>
+    <div class="overview">
+      <p>We are calling for extended abstracts with 2—4 pages to be showcased at a poster session along with short talk spotlights. We are also accepting full submissions with 6—8 pages which will not be included in the Proceedings of AAAI 2019, but we will at the option of the authors provide a link to the relevant arXiv submission.</p>
+      <p>Please submit workshop papers to <a href="mailto:networkinterpretability@gmail.com">networkinterpretability@gmail.com </a></p>
+      <p>Submission deadline: November 5, 2018</p>
+      <p>Notification date: November 26, 2018</p>
+<!--    <p>This tutorial is to broadly engage the computer vision community with the topic of interpretability and explainability in models used in computer vision. We will introduce the definition of interpretability and why it is important, and have a review on visualization and interpretation methodologies for analyzing both the <em>data</em> and the <em>models</em> in computer vision.
+</p>
+-->
+    </div>
+</div>
+
+</br>
+
+<div class="container">
+  <h2>Organizers</h2>
+    <div>
+      <div class="instructor">
+          <a href="http://qszhang.com" >
+        <div class="instructorphoto"><img src="src/figures/zhangquanshi.png"></div>
+        <div>Quanshi Zhang<br>SJTU</div>
+        </a>
+      </div>
+
+      <div class="instructor">
+        <a href="https://scholar.google.com.hk/citations?user=fOsgdn0AAAAJ&hl=zh-CN&oi=ao">
+            <div class="instructorphoto"><img src="src/figures/fanlixin.png"></div>
+            <div>Lixin Fan<br>Nokia Technologies</div>
+        </a>
+      </div>
+
+      <div class="instructor">
+        <a href="http://people.csail.mit.edu/bzhou/">
+            <div class="instructorphoto"><img src="src/figures/zhoubolei.png"></div>
+            <div>Bolei Zhou<br>MIT</div>
+        </a>
+      </div>
+
+    </div>
+    <p></p>
+</div>
+
+</br>
+
+<div class="containersmall">
+    <p>Please contact <a href="mailto:zqs1022@sjtu.edu.cn">Quanshi Zhang</a> if you have question. </p>
+</div>
+
+<!--<p align="center" class="acknowledgement">Last updated: Jan. 6, 2017</p>-->
 </body>
-
 </html>
