@@ -70,7 +70,6 @@ a:hover {
     font-size: 18px;
     width: 1000px;
     padding: 1em 2em 1em 2em; /* top, right, bottom, left */
-    text-align: left;
 }
 
 
@@ -87,7 +86,7 @@ a:hover {
 }
 
 .schedule {
-    width: 900px;
+    width: 950px;
     min-height: 200px;
     margin: 0 auto; /* top and bottom, right and left */
     /*border: 1px solid #000;*/
@@ -193,6 +192,7 @@ table.psets {
 }
 
 .instructor {
+    margin-top: 1px;
     display: inline-block;
     width: 200px;
     text-align: center;
