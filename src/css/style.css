@@ -83,7 +83,7 @@ a:hover {
     padding: 1em 1em 1em 1em; /* top, right, bottom, left */
     color: #4d4b59;
     background: #f7f7f7;
-    text-indent: 44px
+    text-indent: 20px
 }
 
 .schedule {
@@ -198,5 +198,4 @@ table.psets {
     width: 200px;
     text-align: center;
     margin-right: 20px;
-    font-size: 15px;
 }
