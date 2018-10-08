@@ -83,6 +83,8 @@ a:hover {
     padding: 1em 1em 1em 1em; /* top, right, bottom, left */
     color: #4d4b59;
     background: #f7f7f7;
+    text-indent: 15px;
+    font-size:15px;
 }
 
 .schedule {
